@@ -1,6 +1,6 @@
 pipeline {
     agent {
-        label 'your-node-label' // Replace with your Jenkins agent node if configured, otherwise use 'any'
+        label 'any' // Replace with your Jenkins agent node if configured, otherwise use 'any'
     }
 
     environment {
